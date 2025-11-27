@@ -1,6 +1,7 @@
 # CheckMK Matrix Notification Script
 
 A Python notification script for [CheckMK](https://checkmk.com/) that sends alerts to [Matrix](https://matrix.org/) chat rooms.
+Inspired by [Hagbear's Checkmk Matrix script](https://github.com/Hagbear/checkmk-matrix-notify) but rewritten in Python.
 
 ## Overview
 
@@ -10,7 +11,7 @@ This script enables CheckMK to send host and service notifications directly to M
 ## Requirements
 
 - Python 3.6+
-- CheckMK (tested with 2.x)
+- CheckMK (tested with Raw 2.4.0p16)
 - A Matrix account with an access token
 
 ## Installation
