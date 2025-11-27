@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # Push Notification (using Matrix - Python)
 #
-# Script Name   : checkmk_matrix-notify.py
-# Description   : Send Check_MK notifications by Matrix (python)
+# Script Name   : checkmk-matrix-notify.py
+# Description   : Send checkmk notifications by Matrix (Python)
 # Author        : James Wait 
 # License       : BSD 3-Clause "New" or "Revised" License
 # ======================================================================================
