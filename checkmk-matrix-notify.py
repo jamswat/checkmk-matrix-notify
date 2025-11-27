@@ -118,8 +118,9 @@ def build_message():
     html_lines.append(f"<b>Output:</b> <code>{output}</code>")
     html_lines.append(f"<p><small>Site: {site} | {timestamp}</small></p>")
 
-    html_text = "<br>".join(html
-
+    html_text = "<br>".join(html_lines)
+    
+    return plain_text, html_text
 def send_to_matrix(homeserver, access_token, room_id, plain_text, html_text):
     """
     Send a message to a Matrix room.
