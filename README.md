@@ -28,9 +28,6 @@ Copy the script to your CheckMK notification plugins directory:
 # Switch to your OMD site user
 su - mysite
 
-# Create the local notifications directory if it doesn't exist
-mkdir -p ~/local/share/check_mk/notifications
-
 # Copy the script
 cp checkmk_matrix-notify.py ~/local/share/check_mk/notifications/
 
@@ -160,4 +157,3 @@ BSD 3-Clause "New" or "Revised" License
 
 - [CheckMK Notification Documentation](https://docs.checkmk.com/latest/en/notifications.html)
 - [Matrix Client-Server API Specification](https://spec.matrix.org/latest/client-server-api/)
-- [Matrix.org Client-Server API Guide](https://matrix.org/docs/older/client-server-api/)
