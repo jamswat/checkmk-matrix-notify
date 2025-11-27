@@ -2,6 +2,7 @@
 
 A Python notification script for [CheckMK](https://checkmk.com/) that sends alerts to [Matrix](https://matrix.org/) chat rooms.
 Inspired by [Hagbear's Checkmk Matrix script](https://github.com/Hagbear/checkmk-matrix-notify) but rewritten in Python.
+![checkmk](https://github.com/user-attachments/assets/bf70eb95-7805-4c33-8158-780fea57d1df)
 
 ## Overview
 
@@ -139,18 +140,6 @@ The script uses CheckMK's standard exit codes:
 | `1` | Retry - temporary failure, CheckMK will retry |
 | `2` | Failed - permanent failure, no retry |
 
-## Example Notification
-
-A service notification will appear in Matrix like this:
-
-> **🚨 SERVICE PROBLEM**
-> 
-> **Host:** webserver01
-> **Service:** HTTP
-> **State:** OK → CRIT
-> **Output:** `Connection refused`
-> 
-> *Site: mysite | 2024-01-15 10:30:00*
 
 ## Troubleshooting
 
