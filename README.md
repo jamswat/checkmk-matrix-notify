@@ -28,11 +28,14 @@ Copy the script to your CheckMK notification plugins directory:
 # Switch to your OMD site user
 su - mysite
 
-# Copy the script
-cp checkmk_matrix-notify.py ~/local/share/check_mk/notifications/
+#Enter the notification directory
+~/local/share/check_mk/notifications/
+
+#wget the script
+wget https://github.com/jamswat/checkmk-matrix-notify/raw/refs/heads/main/checkmk-matrix-notify.py
 
 # Make it executable
-chmod +x ~/local/share/check_mk/notifications/checkmk_matrix-notify.py
+chmod +x ~/local/share/check_mk/notifications/checkmk-matrix-notify.py
 ```
 
 > **Note**: Custom notification scripts should be saved in `~/local/share/check_mk/notifications`. They will be automatically found and made available for selection in notification rules ([CheckMK Documentation](https://docs.checkmk.com/latest/en/notifications.html)).
