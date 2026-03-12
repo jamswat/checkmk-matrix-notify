@@ -4,6 +4,7 @@ A Python notification script for [CheckMK](https://checkmk.com/) that sends aler
 
 Inspired by [Hagbear's Checkmk Matrix script](https://github.com/Hagbear/checkmk-matrix-notify) but rewritten in Python.
 
+[Now also on Checkmk Exchange!](https://exchange.checkmk.com/p/checkmk-matrix-notify)
 
 ![checkmk](https://github.com/user-attachments/assets/bf70eb95-7805-4c33-8158-780fea57d1df)
 
