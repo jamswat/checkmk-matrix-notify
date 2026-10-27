@@ -88,7 +88,7 @@ The response will contain your `access_token`.
    - **Notification Method**: Select `Push Notification (using Matrix - Python)`
    - **Parameter 1**: Matrix homeserver (e.g., `matrix.example.org`)
    - **Parameter 2**: Bot access token
-   - **Parameter 3**: Room ID (e.g., `!abc123:matrix.example.org`)
+   - **Parameter 3**: Room ID (e.g., `!abc123`)
 
 4. Configure conditions as needed (hosts, services, time periods, etc.)
 5. Save and activate changes
